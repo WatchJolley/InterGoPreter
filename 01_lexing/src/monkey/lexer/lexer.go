@@ -2,7 +2,7 @@ package lexer
 
 import "monkey/token"
 
-// todo: fully support unicode (byte -> rune)
+// TODO: fully support unicode (byte -> rune)
 type Lexer struct {
 	input        string
 	position     int  // Current position in input
